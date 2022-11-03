@@ -8,4 +8,4 @@ while using all the necessary tools in react. Implement the proper SEO, Error Bo
 (show a page to test the error boundary) and 404 pages. Good Ul and Designs are
 important.
 
-hosted link: https://gorgeous-druid-fe2a97.netlify.app/
+hosted link: https://clone-my-repo.netlify.app/
