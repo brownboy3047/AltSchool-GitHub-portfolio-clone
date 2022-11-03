@@ -1,0 +1,55 @@
+/* .repo {
+  flex: 0.75;
+  margin-left: 20px;
+
+} */
+
+.repo-card-list {
+  border-top: 1px solid #30363d;
+  border-bottom: 1px solid #30363d;
+  padding: 20px 0;
+}
+
+.repo-card-list p,
+.repo-card-list small {
+  margin: 10px 0;
+  color: rgb(185, 183, 183);
+}
+
+.repo-card .repo-link {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.repo-card .repo-link a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.repo-card .repo-link a:hover {
+  text-decoration: underline;
+}
+
+.repo-card .repo-link h4 {
+  width: 8%;
+  padding-bottom: 4px;
+  margin-top: 12px;
+  border: 1px solid #30363d;
+  border-radius: 25px;
+  color: gray;
+  text-align: center;
+}
+
+@media all and (max-width: 768px) {
+  .repo {
+    flex: 1;
+  }
+  .repo-card .repo-link {
+    display: block;
+  }
+
+  .repo-card .repo-link h4 {
+    width: 30%;
+  }
+}

@@ -1,0 +1,183 @@
+.each-repo {
+  color: #fff;
+}
+
+.each-repo-info {
+  margin-top: 5px;
+  padding: 0 30px;
+}
+
+.each-repo-head {
+  display: flex;
+  align-items: center;
+}
+.each-repo-name {
+  flex: 50%;
+  display: flex;
+  gap: 10px;
+  padding: 20px 0;
+  color: gray;
+  align-items: center;
+}
+
+.each-repo-name h3 {
+  color: #58a6ff;
+  font-size: 16px;
+}
+
+.each-repo-name h3:hover {
+  border-bottom: 1px solid #58a6ff;
+}
+
+.each-repo-name p {
+  width: 8%;
+  font-size: 12px;
+  padding-bottom: 4px;
+  border: 1px solid #30363d;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.each-repo-head-btn {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 30px;
+}
+
+.each-repo-head-btn button {
+  padding: 5px;
+  width: 20%;
+  border-radius: 4px;
+  border: 1px solid #49494a;
+  cursor: pointer;
+  background-color: #21262d;
+  color: #fff;
+  outline: none;
+}
+
+.each-repo-head-btn button:hover {
+  border: 1px solid gray;
+  background-color: #353536;
+}
+
+.each-repo hr {
+  margin-top: 50px;
+  border: 0.5px solid #30363d;
+}
+
+.each-repo-main {
+  margin-top: 20px;
+  padding: 0 30px;
+  display: flex;
+  /* align-items: center; */
+}
+
+.each-repo-main .each-repo-section {
+  flex: 0.7;
+}
+
+.each-repo-main .each-repo-section button {
+  padding: 8px;
+  width: 15%;
+  border-radius: 4px;
+  border: 1px solid #49494a;
+  cursor: pointer;
+  background-color: #21262d;
+  color: #fff;
+  outline: none;
+}
+
+.each-repo-main .each-repo-section button:hover {
+  border: 1px solid gray;
+  background-color: #353536;
+}
+
+.each-repo-main .each-repo-section-code {
+  border: 1px solid #353b42;
+  border-radius: 4px;
+  margin-top: 20px;
+  height: 250px;
+}
+
+.each-repo-main .each-repo-section-code h4 {
+  padding: 5px 0 0 20px;
+}
+
+.each-repo-section .each-repo-section-code hr {
+  margin-top: 20px;
+}
+
+.each-repo-section-code-info .each-repo-section-code-info-one,
+.each-repo-section-code-info .each-repo-section-code-info-two,
+.each-repo-section-code-info .each-repo-section-code-info-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 0 20px;
+  color: rgb(192, 183, 183);
+}
+
+.each-repo-section-code-info .each-repo-section-code-info-one div,
+.each-repo-section-code-info .each-repo-section-code-info-two div,
+.each-repo-section-code-info .each-repo-section-code-info-three div {
+  display: flex;
+  gap: 15px;
+}
+
+.each-repo-section-code-info .each-repo-section-code-info-one small,
+.each-repo-section-code-info .each-repo-section-code-info-two small,
+.each-repo-section-code-info .each-repo-section-code-info-three small {
+  margin-right: 20px;
+}
+
+.each-repo-main .each-repo-aside {
+  flex: 0.3;
+  padding: 0 20px;
+  color: #c9d1d9;
+}
+
+.each-repo-main .each-repo-aside h5 {
+  margin: 15px 0;
+}
+
+.each-repo-main .each-repo-aside-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: grey;
+  margin-top: 10px;
+}
+
+.each-repo-main .each-repo-aside-language {
+  margin: 15px 0;
+}
+
+/** media query */
+@media all and (max-width: 768px) {
+  .each-repo-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .each-repo-name p {
+    width: 15%;
+    font-size: 10px;
+  }
+
+  .each-repo-head-btn button {
+    width: 35%;
+  }
+
+  .each-repo-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .each-repo-main .each-repo-section {
+    height: 800px;
+    margin-bottom: 20px;
+  }
+}
